@@ -1,0 +1,10 @@
+L = [10, 20, 30, 40, 50, 60, 70, 80]
+L.append(200)
+L.append(300)
+L.remove(10)
+L.remove(30)
+L_ascending = sorted(L)
+L_descending = sorted(L, reverse=True)
+print(L)
+print(L_ascending)
+print(L_descending)
